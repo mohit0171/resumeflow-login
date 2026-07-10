@@ -1,6 +1,4 @@
-/* ==========================================
-   1. RESET & INITIAL LAYOUT FRAMEWORK
-   ========================================== */
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +15,6 @@ body{
     padding: 24px;
 }
 
-/* Crisp double-sided split desktop view card */
 .split-container {
     display: flex;
     width: 100%;
@@ -29,9 +26,6 @@ body{
     overflow: hidden;
 }
 
-/* ==========================================
-   2. LEFT COMPONENT STYLING (FORMS)
-   ========================================== */
 .left-pane {
     flex: 1;
     display: flex;
@@ -75,9 +69,6 @@ h1{
     line-height: 1.5;
 }
 
-/* ==========================================
-   3. FORM INPUT LAYOUTS & FIELDS
-   ========================================== */
 .form label {
     display: block;
     width: 100%;
@@ -114,9 +105,8 @@ input[type="password"]:focus{
     box-shadow: 0 0 0 4px rgba(75, 94, 245, 0.1);
 }
 
-/* ==========================================
-   4. EYE ICON EMBED WITHIN CONTAINER
-   ========================================== */
+
+
 .password-container {
     position: relative;
 }
@@ -128,7 +118,7 @@ input[type="password"]:focus{
 #togglePassword{
     position: absolute;
     right: 16px;
-    bottom: 15px; /* Centers cleanly across from text field boundary lines */
+    bottom: 15px; 
     cursor: pointer;
     color: #9ca3af;
     font-size: 16px;
